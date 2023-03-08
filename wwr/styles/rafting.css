@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab&family=Roboto:wght@700&display=swap');
+
+:root {
+    --primary-color: #598392;
+    --secondary-color: #011936;
+    --accent1-color: #F7F0F0;
+    --accent2-color: #C05746;
+  
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto Slab', serif;
+  
+    --nav-background-color: #011936;
+    --nav-link-color: #C05746;
+    --nav-hover-link-color: #F7F0F0;
+    --nav-hover-background-color: #598392;
+  }
+
+  * {
+    max-width: 960px;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    padding: 50px;
+    margin: 15px;
+    border: 5px solid var(--accent2-color);
+  }
+
+  header img {
+    float: left;
+  }
+
+  .hero {
+    position: relative;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    position: absolute;
+  }
+
+  article {
+    position: absolute;
+  }
+
+  article img {
+    float: right;
+  }
+
+  h1, h2 {
+    font-family: var(--heading-font);
+  }
+
+  p {
+    font-family: var(--paragraph-font);
+    color: black;
+  }
+
+  footer img {
+    width: 50px;
+  }
