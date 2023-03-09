@@ -33,27 +33,48 @@
 
   .hero {
     position: relative;
+    text-align: center;
+    color: white;
   }
 
-  .hero img {
+  img#hero {
     width: 100%;
     height: auto;
   }
 
-  h1 {
+  .hero h1 {
     position: absolute;
+    color: black;
+    top: 175px;
+    right: 300px
   }
 
-  article {
+  .hero article {
     position: absolute;
+    right: 100px;
+    left: 100px;
+    bottom: 60px;
+    background: var(--secondary-color);
+    border: 1px solid var(--accent1-color);
+    padding: 0.65rem;
+    opacity: 0.8;
+    color: var(--accent1-color)
   }
 
-  article img {
+  img#employee {
     float: right;
+    width: 200px;
+    height: auto;
+  }
+
+  article p {
+    font-family: var(--paragraph-font);
+    color: white;
   }
 
   h1, h2 {
     font-family: var(--heading-font);
+    text-align: center;
   }
 
   p {
