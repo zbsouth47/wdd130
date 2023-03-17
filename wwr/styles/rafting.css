@@ -110,9 +110,13 @@
 
   .images figure {
     flex: 20%;
-    padding: 2px;
+    padding: 1px;
     align-items: center;
   } 
+
+  .images img {
+    max-width: 150px;
+  }
 
   footer {
     display: flex;
