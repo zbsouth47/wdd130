@@ -25,10 +25,28 @@
     padding: 50px;
     margin: 15px;
     border: 5px solid var(--accent2-color);
+    display: grid;
+    align-content: center;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
   }
 
   header img {
     float: left;
+    width: 5rem;
+  }
+
+  nav {
+    grid-column: 2 / 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
   }
 
   .hero {
@@ -82,6 +100,25 @@
     color: black;
   }
 
+  .images h2 {
+    justify-content: center;
+  }
+
+  #images {
+    display: flex;
+  }
+
+  .images figure {
+    flex: 20%;
+    padding: 2px;
+    align-items: center;
+  } 
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+
   footer img {
-    width: 50px;
+    width: 25px;
   }
