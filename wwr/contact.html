@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Zach Southwick</title>
+    <meta name="description" content="This is the contact us page for our white water rafting site.">
+    <meta name="author" content="Zachary Southwick">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Website Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="company-info">
+            <p id="address">
+                222 N 100 W <br>
+                Chubbuck, ID 83201
+            </p>
+            <p id="phone">
+                208 222 1111
+            </p>
+            <p id="email">
+                contact@whitewaterrafting.com
+            </p>
+        </div>
+        <fieldset>
+            <div class="form-item column2">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+            <p>Please select the purpose of your message:</p>
+            <div class="form-item column1">
+                <input type="radio" id="general" name="purpose" value="General Inquiry">
+                <label for="general">General Inquiry</label>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="website" name="purpose" value="Website Suggestion">
+                <label for="website">Website Suggestion</label>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder=""></textarea>
+                <label for="newsletter">Would you like to subscribe to the monthly newsletter?</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </main>
+    <footer>
+        <p>©️2023 | Snake River Rafting | Zachary Southwick</p>
+        <a href="https://www.facebook.com/" target='blank'><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="blank"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/en/" target="blank"><img src="images/tiktok.png" alt="TikTok"></a>
+    </footer>
+</body>
+</html>
