@@ -112,7 +112,27 @@ h1, h2 {
   flex: 20%;
   padding: 1px;
   align-items: center;
+  height: auto;
 } 
+
+#employees {
+  text-align: center;
+}
+
+.contact-photos {
+  display: flex;
+}
+
+.contact-photos figure {
+  flex: 33%;
+  padding: 5px;
+  align-items: center;
+  
+}
+
+.contact-photos img {
+  max-width: 200px;
+}
 
 .images img {
   max-width: 150px;
