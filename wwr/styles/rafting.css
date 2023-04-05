@@ -151,8 +151,6 @@ footer {
 footer img {
   width: 25px;
 }
-  
-  /* copied */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -161,8 +159,17 @@ body {
   background: grey;
 }
 
-form {
+#contact {
   width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 5px solid var(--accent2-color);
+  border-radius: .5rem;
+  display: grid;
+}
+
+#home {
+  width: 25%;
   margin: 0 auto;
   padding: 5px;
   border: 5px solid var(--accent2-color);
@@ -208,9 +215,6 @@ button:hover {
   background-color: white;
 }
 
-
-/* CSS Selectors */
-
 .form-item {
   display: grid;
   align-items: center;
@@ -228,4 +232,20 @@ button:hover {
 .company-info {
   text-align: center;
   color: var(--secondary-color);
+}
+
+.invite, .fun-images {
+  float: right;
+  width: 75%;
+}
+
+.fun-images {
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+
+.signup {
+  float: left;
+  width: 25%;
 }
