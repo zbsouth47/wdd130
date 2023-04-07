@@ -249,3 +249,13 @@ button:hover {
   float: left;
   width: 25%;
 }
+
+table {
+  border: 2px black solid;
+  margin: 5px;
+}
+
+th, td, tr {
+  border: 1px black solid;
+  margin: 3px;
+}
